@@ -1,16 +1,16 @@
-.header {
+#header {
   background-color: #38ce31;
   font-family: monospace;
   font-size: 40px;
 }
 
-.intro {
+#intro {
   background-color: #31ce78;
 }
 
-.blogLinks {
+#blogLinks {
   background-color: #31cec7;
 }
 
-.image {
+#image {
 }
