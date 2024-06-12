@@ -5,9 +5,12 @@ body {
 h1 {
   font-family: monospace;
   font-size: 40px;
+  font-weight: 70;
+  letter-spacing: 2px;
   color: #a6fefe;
   text-align: center;
   padding: 50px;
+  
 }
 
 p {
@@ -24,6 +27,7 @@ intro {
   background-color: #38ce31;
   flex-direction: column;
   border-bottom: 100px;
+
 
 }
 
