@@ -15,6 +15,14 @@ h1 {
   
 }
 
+h2 {
+  font-family: monospace;
+  font-size: 35px;
+  font-weight: 70;
+  color: #ebfeec;
+  text-align: left;
+}
+
 p {
   font-size: 20px;
   font-family: monospace;
@@ -52,17 +60,18 @@ intro {
   background-color: #31cec7;
   color: #a6fefe;
   border: 10px solid;
-  margin: 50px;
+  margin: 20px;
   padding: 50px;
+  max-width: 40%;
 }
 
 #blogLinks ul {
   list-style-type: none;
-   padding: 30px;
+   padding: 20px;
 }
 
 #blogLinks li {
-  font-size: 30px;
+  font-size: 27px;
   font-family: monospace;
   margin-bottom: 50px;
 }
