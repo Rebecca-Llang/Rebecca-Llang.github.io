@@ -23,9 +23,8 @@ h2 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 40px;
   font-family: monospace;
-  color: #a6fefe;
 }
 
 .intro {
@@ -33,6 +32,9 @@ p {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-content: center; 
   padding: 0;
   margin: 0;
   width: 100%;
@@ -45,7 +47,7 @@ p {
 #intro {
   background-color: #31ce78;
   margin-top: 10px;
-  padding: 50px 50px 50px;
+  padding: 50px;
 }
 
 #blogLinks {
@@ -78,8 +80,8 @@ p {
 #placeholderImage {
   max-width: 100%;
   height: auto;
-  border: 1px solid #ccc;
-  padding: 19px;
+  border: 1px solid aqua;
+  padding: 23px;
 }
 
 .home-content {
@@ -89,4 +91,16 @@ p {
   padding: 20px;
   gap: 20px;
 }
+
+footer {
+  background-color: #38ce31;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  color: #a6fefe;
+  min-height: 50px;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 30px;
+  }
 
