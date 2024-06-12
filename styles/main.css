@@ -3,24 +3,55 @@ body {
 }
 
 h1 {
-  background-color: #38ce31;
   font-family: monospace;
   font-size: 40px;
   color: #a6fefe;
+  text-align: center;
+  padding: 50px;
 }
 
 p {
   font-size: 20px;
   font-family: monospace;
-  color: black;
+  color: #a6fefe;
+}
+
+intro {
+  text-align: left;
+}
+
+#header {
+  background-color: #38ce31;
+  flex-direction: column;
+  border-bottom: 100px;
+
 }
 
 #intro {
   background-color: #31ce78;
+  margin-top: 10px ;
+  padding: 50px 50px 50px;
+  align-content: left;
+  
 }
 
 #blogLinks {
   background-color: #31cec7;
+  color: #a6fefe;
+  border: 10px solid;
+  margin: 50px;
+  padding: 50px;
+}
+
+#blogLinks ul {
+  list-style-type: none;
+   padding: 30px;
+}
+
+#blogLinks li {
+  font-size: 30px;
+  font-family: monospace;
+  margin-bottom: 50px;
 }
 
 #image {
