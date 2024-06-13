@@ -23,8 +23,9 @@ h2 {
 }
 
 p {
-  font-size: 40px;
+  font-size: 25px;
   font-family: monospace;
+  color: #e4f9fa;
 }
 
 .intro {
@@ -47,7 +48,7 @@ p {
 #intro {
   background-color: #31ce78;
   margin-top: 10px;
-  padding: 50px;
+  padding: 40px;
 }
 
 #blogLinks {
@@ -104,3 +105,7 @@ footer {
   font-size: 30px;
   }
 
+a {
+  color: #caf3f5;
+  font-size: 25px;
+}
