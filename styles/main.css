@@ -21,8 +21,15 @@ h2 {
 }
 
 footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #38ce31;
   font-family: monospace;
   font-size: 1.88em;
+  padding: 1em;
+  margin-top: 1em;
+  
 }
 
 .header {
@@ -43,6 +50,7 @@ footer {
 }
 
 .homeContent {
+  background-color: #31CEC7
 }
 
 .blogLinks {
@@ -56,6 +64,7 @@ footer {
 a {
   font-family: monospace;
   font-size: 1.56em;
+  text-decoration: none;
 }
 
 a:hover {
