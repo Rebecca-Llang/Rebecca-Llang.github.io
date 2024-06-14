@@ -10,6 +10,7 @@ h1 {
   color: #a6fefe;
   text-align: center;
   padding: 50px;
+  background-color: #38ce31
 }
 
 h2 {
@@ -38,12 +39,9 @@ p {
   align-content: center;
   padding: 0;
   margin: 0;
-  width: auto;
+  /* width: auto; */
 }
 
-#header {
-  background-color: #38ce31;
-}
 
 #intro {
   background-color: #31ce78;
