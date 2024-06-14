@@ -59,16 +59,16 @@ footer {
   justify-content: center;
   height: 100%;
   width: 100%;
+  margin: auto;
 }
 
 .blogLinks {
   font-family: monospace;
   font-size: 1.69em;
-  flex-grow: 1;
+  flex-grow: 2;
   flex-shrink: 1;
   flex-basis: auto;
   max-width: 50%;
-  border: black;
   padding: 1em;
 }
 
@@ -123,5 +123,11 @@ a:visited {
 /* phones */
 @media only screen and (max-width: 400px) {
   .container {
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+  height: 50%;
+  width: 50%;
   }
 }
