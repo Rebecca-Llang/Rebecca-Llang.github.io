@@ -38,7 +38,9 @@
     </div>
 
     <div class="homeContent">
-      <h2 style="align-content: center;">Positioning can be done in three main ways :</h2>
+      <h2 style="align-content: center">
+        Positioning can be done in three main ways :
+      </h2>
       <ul>
         <li>
           <p>Small tweeks: Relative Positioning</p>
@@ -68,15 +70,56 @@
         behave and adjust itself, in relation to itself, and to the section it
         belongs to.
       </p>
-      <p></p>
+      <p>
+        Let’s use Tooltips as an example. Say you are writing a blog post and
+        you want a Tooltip to appear when a certain word is hovered over. You
+        can use absolute positioning to make sure the tooltip hovers over the
+        correct word, regardless of how the page content shifts. You could
+        create a container called .toolTip and set it to position: relative;.
+        Inside this, you have a child element called .toolTipText with position:
+        absolute;. This setup ensures that the tooltip text always appears in
+        the right spot relative to the word
+      </p>
     </div>
 
     <div class="def absolutePos">
-      <h3></h3>
+      <h2>position: absolute;</h2>
+      <p>
+        An element with position: absolute;, sits in relation to its parent
+        container, exactly where you want it to. Think back to the metaphor of
+        the tree. The webpage is the trunk, with containers and elements being
+        branches and leaves. Absolute positioning allows you to glue a leaf
+        exactly where you want to on a branch (parent), regardless of how the
+        branch moves. This means we can place elements exactly where we like
+        them in a section, and keep them there.
+      </p>
+      <p>
+        Let’s use Tooltips as an example. Say you are writing a blog post and
+        you want a Tooltip to appear when a certain word is hovered over. You
+        can use absolute positioning to make sure the tooltip hovers over the
+        correct word, regardless of how the page content shifts. You could
+        create a container called .toolTip and set it to position: relative;.
+        Inside this, you have a child element called .toolTipText with position:
+        absolute;. This setup ensures that the tooltip text always appears in
+        the right spot relative to the word
+      </p>
     </div>
 
     <div class="def fixedPos">
-      <h3></h3>
+      <h2>position: fixed;</h2>
+      <p>
+        An element with position: fixed; will stay anchored in place on the
+        viewport (the screen), regardless of where you scroll. This is useful
+        for things that you want to remain visible at all times on the screen.
+        It is like super gluing a picture of your cat on top of your screen, so
+        you can always see its lovely little face.
+      </p>
+      <p>
+        We can often see this used for navigation and branding purposes. They
+        can help users move through the page and links, remember where they are,
+        and return to where they want to go. These are access and orientation
+        prompts that help users interact effectively with the webpage.
+      </p>
     </div>
 
     <div class="whyWhenHow">
