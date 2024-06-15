@@ -15,7 +15,6 @@ h2 {
   color: #a6fefe;
   padding: 1em;
   letter-spacing: 0.1em;
-
 }
 
 p {
@@ -157,4 +156,8 @@ a:visited {
     max-width: 100%;
     padding: 0.5em;
   }
+}
+
+#highlight {
+  color: aqua;
 }

@@ -60,9 +60,9 @@
     <div class="def relativePos">
       <h2>position: relative;</h2>
       <p>
-        An element with position: relative; is set in relation to its own
-        default position, and that of its parent container within the webpage
-        flow.
+        An element with <span id="highlight">position: relative;</span> is set
+        in relation to its own default position, and that of its parent
+        container within the webpage flow.
       </p>
       <p>
         This means we created a section (parent container) and inside this we
@@ -71,48 +71,50 @@
         belongs to.
       </p>
       <p>
-        Let’s use Tooltips as an example. Say you are writing a blog post and
-        you want a Tooltip to appear when a certain word is hovered over. You
-        can use absolute positioning to make sure the tooltip hovers over the
-        correct word, regardless of how the page content shifts. You could
-        create a container called .toolTip and set it to position: relative;.
-        Inside this, you have a child element called .toolTipText with position:
-        absolute;. This setup ensures that the tooltip text always appears in
-        the right spot relative to the word
+        So let’s say we have a section on the web page called
+        <span id="highlight">‘.homeContent’</span> Inside this section, you have
+        two smaller areas, one for links, and one for an image. Both are set to
+        <span id="highlight">‘position: relative’</span>. This means they will
+        stay in their usual place but can be shifted slightly without disturbing
+        the overall flow and layout. It also means the elements will adjust
+        alongside the parent container as it adjusts to different screen types
+        and platforms.
       </p>
     </div>
 
     <div class="def absolutePos">
       <h2>position: absolute;</h2>
       <p>
-        An element with position: absolute;, sits in relation to its parent
-        container, exactly where you want it to. Think back to the metaphor of
-        the tree. The webpage is the trunk, with containers and elements being
-        branches and leaves. Absolute positioning allows you to glue a leaf
-        exactly where you want to on a branch (parent), regardless of how the
-        branch moves. This means we can place elements exactly where we like
-        them in a section, and keep them there.
+        An element with <span id="highlight">position: absolute;</span>, sits in
+        relation to its parent container, exactly where you want it to. Think
+        back to the metaphor of the tree. The webpage is the trunk, with
+        containers and elements being branches and leaves. Absolute positioning
+        allows you to glue a leaf exactly where you want to on a branch
+        (parent), regardless of how the branch moves. This means we can place
+        elements exactly where we like them in a section, and keep them there.
       </p>
       <p>
         Let’s use Tooltips as an example. Say you are writing a blog post and
         you want a Tooltip to appear when a certain word is hovered over. You
         can use absolute positioning to make sure the tooltip hovers over the
         correct word, regardless of how the page content shifts. You could
-        create a container called .toolTip and set it to position: relative;.
-        Inside this, you have a child element called .toolTipText with position:
-        absolute;. This setup ensures that the tooltip text always appears in
-        the right spot relative to the word
+        create a container called <span id="highlight">.toolTip</span> and set
+        it to <span id="highlight">position: relative;</span>. Inside this, you
+        have a child element called
+        <span id="highlight">.toolTipText</span> with
+        <span id="highlight">position: absolute;</span>. This setup ensures that
+        the tooltip text always appears in the right spot relative to the word
       </p>
     </div>
 
     <div class="def fixedPos">
       <h2>position: fixed;</h2>
       <p>
-        An element with position: fixed; will stay anchored in place on the
-        viewport (the screen), regardless of where you scroll. This is useful
-        for things that you want to remain visible at all times on the screen.
-        It is like super gluing a picture of your cat on top of your screen, so
-        you can always see its lovely little face.
+        An element with <span id="highlight">position: fixed;</span> will stay
+        anchored in place on the viewport (the screen), regardless of where you
+        scroll. This is useful for things that you want to remain visible at all
+        times on the screen. It is like super gluing a picture of your cat on
+        top of your screen, so you can always see its lovely little face.
       </p>
       <p>
         We can often see this used for navigation and branding purposes. They
