@@ -11,7 +11,7 @@ h1 {
 
 p {
   font-family: monospace;
-  font-size: 2em;
+  font-size: 0.8em;
   color: #e4f9fa;
 }
 
@@ -19,6 +19,7 @@ h2 {
   font-family: monospace;
   font-size: 1.5em;
   color: #e4f9fa;
+  padding: 0.5em;
 }
 
 footer {
@@ -75,6 +76,9 @@ footer {
 li {
   margin-bottom: 2em;
   list-style: none;
+  font-family: monospace;
+  font-size: 1.56em;
+  color: #4c144e;
 }
 
 .imageContainer {
