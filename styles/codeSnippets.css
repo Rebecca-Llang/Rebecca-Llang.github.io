@@ -15,8 +15,6 @@
   padding: 1em;
   margin: 1em;
   max-width: 50%;
-  position: relative;
-  left: 40px;
 }
 
 .aboutMe {
@@ -27,6 +25,4 @@
   padding: 1em;
   margin: 1em;
   max-width: 50%;
-  position: relative;
-  top: 60px;
 }
