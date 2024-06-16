@@ -161,3 +161,21 @@ a:visited {
 #highlight {
   color: aqua;
 }
+
+.whyWhenHow {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: #38ce31;
+  border: white solid;
+}
+
+.when {
+  color: #a6fefe;
+  border: white solid;
+  padding: 0.1em;
+  margin: 0.1em;
+  background-color: #31cec7;
+  flex-flow: column wrap;
+  align-items: center;
+}
