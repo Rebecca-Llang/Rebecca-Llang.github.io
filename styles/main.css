@@ -82,14 +82,18 @@ footer {
 }
 
 ul {
+  list-style: none;
+  color: #4c144e;
+}
+
+ol {
+  color: white;
 }
 
 li {
   margin-bottom: 2em;
-  list-style: none;
   font-family: monospace;
   font-size: 1.46em;
-  color: #4c144e;
 }
 
 .imageContainer {
