@@ -57,10 +57,33 @@
       </ul>
     </div>
 
-    <!-- include an image here -->
+    <div><!-- include an image here --></div>
+    
 
     <div class="header" style="margin-top:1em"><h3>Relative Positioning</h3></div>
-    <div class="def relativePos">
+    
+
+    <div class="whyWhenHow">
+      <!-- having issues making these even, will return-->
+      <div class="when">
+        <ul><h3>Why:</h3>
+          <li>It lets you to slightly move an element from its normal position, without affecting other parts of the page.
+          <li>It can set up a reference point for elements that are positioned absolutely</li>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="when">
+        <ul><h3>When:</h3>
+          <li>When you want to slightly move an element (left, right, up or down) without disturbing the rest of your webpage.</li>
+          <li>
+            As a Parent container for child elements with absolute positioning.</li>
+          
+        </ul> 
+    </div>
+    </div>
+    
+      <div class="def relativePos">
       <h2>position: relative;</h2>
       <p>
         An element with <span id="highlight">position: relative;</span> is set
@@ -84,32 +107,28 @@
         and platforms.
       </p>
     </div>
-
-    <div class="whyWhenHow">
-      <!-- having issues making these even, will return-->
-      <div class="when">
-        <ul><h3>Why:</h3>
-          <li>It lets you to slightly move an element from its normal position, without affecting other parts of the page.
-          <li>It can set up a reference point for elements that are positioned absolutely</li>
-          </li>
-        </ul>
-      </div>
-      
-      <div class="when">
-        <ul><h3>When:</h3>
-          <li>When you want to slightly move an element (left, right, up or down) without disturbing the rest of your webpage.</li>
-          <li>
-            As a Parent container for child elements with absolute positioning.</li>
-          
-        </ul> 
-
-
-    </div>
     </div>
 
     <div class="how"> </div> 
 
     <div class="header" style="margin-top:1em"><h3>Absolute Positioning</h3></div>
+   <div class="whyWhenHow">
+        <div class="when">
+          <ul><h3>Why:</h3>
+            <li>To place an element exactly where you want to within its parent container</li>
+            <li>It’s useful for overlapping or layering contents and containers on a page</li>
+          </ul>
+      </div>
+        <div class="when"> 
+          <ul><h3>When:</h3>
+            <li>You want an element to stay in a specific spot within its parent container.
+            </li>
+            <li>For Floating elements like tooltips, pop-ups, or icons that need to appear in a specific spot.
+            </li>
+          </ul>
+        </div>
+   </div>
+    
     <div class="def absolutePos">
       <h2>position: absolute;</h2>
       <p>
@@ -134,27 +153,34 @@
         the tooltip text always appears in the right spot relative to the word
       </p>
     </div>
-    <div class="whyWhenHow">
-        <div class="when">
-          <ul><h3>Why:</h3>
-            <li>You can use absolute positioning to place an element exactly where you want to within its parent container</li>
-            <li>It’s useful for overlapping or layering contents on a page</li>
-          </ul>
-      </div>
-        <div class="when"> 
-          <ul><h3>When:</h3>
-            <li>When you want an element to stay in a specific spot within its parent container.
-            </li>
-            <li>Floating elements: for items like tooltips, pop-ups, or icons that need to appear in a specific place.
-            </li>
-          </ul>
-        </div>
+    
           
     </div>
     
 
     <div class="header" style="margin-top:1em"><h3>Fixed Positioning</h3></div>
-    <div class="def fixedPos">
+      
+      <div class="whyWhenHow">
+        <div class="when">
+          <ul><h3>Why:</h3>
+            <li>For elements that need to stay in a fixed spot in view while the user scrolls.
+            </li>
+            <li>It keeps important features, such as navigation bars or buttons, in place for easy access.
+            </li>
+          </ul>
+      </div>
+        <div class="when"> 
+          <ul><h3>When:</h3>
+            <li>For navigation and important content to stay in view as the user scrolls, such as sticky headers and footers.
+
+            </li>
+            <li>Floating navigation or help buttons that must stay in a fixed spot.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="def fixedPos">
       <h2>position: fixed;</h2>
       <p>
         An element with <span id="highlight">position: fixed;</span> will stay
@@ -170,26 +196,8 @@
         prompts that help users interact effectively with the webpage.
       </p>
     </div>
-      
-      <div class="whyWhenHow">
-        <div class="when">
-          <ul><h3>Why:</h3>
-            <li>For elements that need to stay in a fixed spot while the user scrolls.
-            </li>
-            <li>It keeps important features, such as navigation bars or buttons, in place for easy access.
-            </li>
-          </ul>
-      </div>
-        <div class="when"> 
-          <ul><h3>When:</h3>
-            <li>Floating elements: for items like tooltips, pop-ups, or icons that need to appear in a specific place.
-            </li>
-            <li>Floating navigation or help buttons that need to stay in a fixed spot.
-            </li>
-          </ul>
-        </div>
           
-    </div>
+  
     
 
    

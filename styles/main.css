@@ -128,7 +128,7 @@ a:visited {
   align-content: space-around;
   padding: 1em;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 7em;
 }
 
 /* widescreen displays */
@@ -179,7 +179,7 @@ a:visited {
   background-color: #38ce31;
   justify-content: space-around;
   box-sizing: border-box;
-  border: 1px solid aqua;
+  border: 1px solid transparent;
   margin-bottom: 4em;
 }
 
@@ -189,7 +189,7 @@ a:visited {
   max-width: 45%;
   box-sizing: border-box;
   padding: 0.2em;
-  margin: 0.2em;
   align-self: center;
   border: 1px solid aqua;
+  margin: 1em;
 }
