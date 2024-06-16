@@ -17,6 +17,13 @@ h2 {
   letter-spacing: 0.1em;
 }
 
+h3 {
+  font-family: monospace;
+  font-size: 2em;
+  color: #a6fefe;
+  letter-spacing: 0.2em;
+}
+
 p {
   font-family: monospace;
   font-size: 1.5em;
@@ -72,6 +79,9 @@ footer {
   max-width: 50%;
   padding: 1em;
   position: relative;
+}
+
+ul {
 }
 
 li {
@@ -164,18 +174,22 @@ a:visited {
 
 .whyWhenHow {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   align-items: center;
   background-color: #38ce31;
-  border: white solid;
+  justify-content: space-around;
+  box-sizing: border-box;
+  border: 1px solid aqua;
+  margin-bottom: 4em;
 }
 
 .when {
   color: #a6fefe;
-  border: white solid;
-  padding: 0.1em;
-  margin: 0.1em;
   background-color: #31cec7;
-  flex-flow: column wrap;
-  align-items: center;
+  max-width: 45%;
+  box-sizing: border-box;
+  padding: 0.2em;
+  margin: 0.2em;
+  align-self: center;
+  border: 1px solid aqua;
 }
