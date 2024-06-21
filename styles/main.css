@@ -28,7 +28,7 @@ h3 {
 
 p {
   font-family: monospace;
-  font-size: 1.5em;
+  font-size: 3em;
   color: #e4f9fa;
   padding: 0.3em;
 }
@@ -49,6 +49,7 @@ footer {
   flex-flow: row wrap;
   background-color: #169e59;
   justify-content: left;
+  font-size: 4em;
   padding: 3.13em;
   margin-bottom: 1em;
 }
@@ -62,6 +63,7 @@ footer {
   max-height: 100%;
   align-self: flex-start;
   position: relative;
+  font-size: 2.5em;
 }
 
 .homeContent {
@@ -98,7 +100,7 @@ ol {
 li {
   margin-bottom: 2em;
   font-family: monospace;
-  font-size: 1.46em;
+  font-size: 3em;
 }
 
 .imageContainer {
