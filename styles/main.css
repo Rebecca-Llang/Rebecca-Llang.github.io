@@ -229,3 +229,18 @@ a:visited {
   padding-bottom: 2em;
   margin-bottom: 2em;
 }
+
+/* JS BLOG POST */
+/* intro content as parent container for .intro and .side to intro */
+
+.introContent {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.sideToIntro {
+  display: flex;
+  flex-direction: row;
+
+  align-self: flex-end;
+}
