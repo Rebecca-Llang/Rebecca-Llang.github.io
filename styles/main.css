@@ -1,7 +1,7 @@
 body {
-  background-color: aqua;
-  margin: 1em;
+  background-color: #003c3a;
   height: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -58,8 +58,10 @@ footer {
   flex-flow: row wrap;
   background-color: #31ce78;
   padding: 1em;
-  margin-bottom: 1em;
-  max-width: 75%;
+  max-width: 70%;
+  max-height: 100%;
+  align-self: flex-start;
+  position: relative;
 }
 
 .homeContent {
@@ -105,7 +107,6 @@ li {
   flex-basis: auto;
   max-width: 50%;
   margin: 1em;
-  position: relative;
 }
 
 a {
@@ -235,12 +236,15 @@ a:visited {
 
 .introContent {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  position: relative;
 }
 
 .sideToIntro {
   display: flex;
-  flex-direction: row;
-
-  align-self: flex-end;
+  flex-direction: column;
+  width: 20%;
+  max-height: 5%;
+  position: relative;
+  padding: 1em;
 }
