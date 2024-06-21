@@ -37,7 +37,7 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background-color: #38ce31;
+  background-color: #002621;
   font-family: monospace;
   font-size: 1.88em;
   padding: 1em;
@@ -47,7 +47,7 @@ footer {
 .header {
   display: flex;
   flex-flow: row wrap;
-  background-color: #38ce31;
+  background-color: #169e59;
   justify-content: left;
   padding: 3.13em;
   margin-bottom: 1em;
@@ -56,7 +56,7 @@ footer {
 .intro {
   display: flex;
   flex-flow: row wrap;
-  background-color: #31ce78;
+  background-color: #38a66e;
   padding: 1em;
   max-width: 70%;
   max-height: 100%;
@@ -67,7 +67,7 @@ footer {
 .homeContent {
   display: flex;
   flex-flow: row;
-  background-color: #31cec7;
+  background-color: #198d7d;
   align-content: center;
   justify-content: center;
   height: 100%;
@@ -184,7 +184,7 @@ a:visited {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background-color: #38ce31;
+  background-color: #169e59;
   justify-content: space-around;
   box-sizing: border-box;
   border: 1px solid transparent;
@@ -193,12 +193,12 @@ a:visited {
 
 .when {
   color: #a6fefe;
-  background-color: #31cec7;
+  background-color: hsl(177, 44%, 47%);
   max-width: 45%;
   box-sizing: border-box;
   padding: 0.2em;
   align-self: center;
-  border: 1px solid aqua;
+  border: 1px solid #a6fefe;
   margin: 1em;
 }
 
@@ -243,7 +243,7 @@ a:visited {
 .sideToIntro {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  max-width: 20%;
   max-height: 5%;
   position: relative;
   padding: 1em;

@@ -23,8 +23,8 @@
       <div class="header" style="margin-top: 1em"><h3>JS, HTML & CSS</h3></div>
     </div>
 
-    <div class="introContent" style="display: flex">
-      <div class="intro">
+    <div class="introContent">
+      <div class="intro" style="max-height: 100%">
         <p id="simpleDef">
           HTML is the skeleton of your webpage. It provides the basic structure,
           like headers, text, images, and links. Think of HTML as the backbone
@@ -50,7 +50,7 @@
           experience.
         </p>
       </div>
-      <div class="sideToIntro" style="height: 30%">
+      <div class="sideToIntro" style="">
         <img src="/images-blog/html.png" alt="html file icon" />
         <img src="/images-blog/css.png" alt="css file icon" />
         <img src="/images-blog/js.png" alt="js file icon" />
@@ -63,28 +63,29 @@
         <h3>JS RELATION TO HTML & CSS</h3>
       </div>
     </div>
-
-    <div class="intro">
-      <p id="simpleDef">
-        As detailed above, JavaScript allows us to change and edit the content
-        and style of our webpage. JS often uses objects, functions and loops to
-        make what you want to happen, happen. It references classes and ID’s to
-        interact directly with what it needs to. Classes are often used for CSS,
-        and ID’s for HTML elements. JS allows us to build complex, dynamic
-        projects. This allows us to nest, build and offer many options,
-        solutions and next steps when interacted with by the user, as well as a
-        way to edit our DOM quickly in the future.
-      </p>
-    </div>
-
     <div class="whyWhenHow">
+      <div class="intro">
+        <p id="simpleDef">
+          JavaScript allows us to change and edit the content and style of our
+          webpage, alongside HTML and CSS. JS often uses objects, functions and
+          loops to make what you want to happen, happen. It references classes
+          and ID’s to interact directly with what it needs to. Classes are often
+          used for CSS, and ID’s for HTML elements. JS allows us to build
+          complex, dynamic projects. This allows us to nest, build and offer
+          many options and next steps when interacted with by the user, as well
+          as a way to edit our DOM quickly in the future.
+        </p>
+      </div>
+
       <div class="when">
         <p>
           JS interacts with HTML and CSS, within the DOM to edit, read and write
           to the files that build our overall finished project.
         </p>
       </div>
-      <div class="how"></div>
+      <div class="when">
+        <!-- put something in here later -->
+      </div>
     </div>
 
     <!-- CONTROL FLOW AND LOOPS-->
@@ -183,7 +184,11 @@
         style="margin-top: 1em; display: flex; flex-flow: row wrap"
       >
         <h3>FUNCTIONS</h3>
-        <div class="exampleCode" style="display: flex; flex-direction: row">
+      </div>
+    </div>
+    <!--- put in this in side intro and .intro into container
+
+<div class="exampleCode" style="display: flex; flex-direction: row">
           <h3
             style="
               background-color: black;
@@ -195,9 +200,8 @@
             functionName(variables) { method }
           </h3>
         </div>
-      </div>
-    </div>
-
+        
+        -->
     <div class="intro">
       <p id="simpleDef">
         A function is an object that holds a method to do something. As objects,
