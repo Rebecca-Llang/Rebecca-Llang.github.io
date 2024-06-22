@@ -2,11 +2,12 @@ body {
   background-color: #003c3a;
   height: 100%;
   width: 100%;
+  size: 16px;
 }
 
 h1 {
   font-family: monospace;
-  font-size: 3.5em;
+  font-size: 6vw;
   letter-spacing: 0.2em;
   color: #a6fefe;
 }
@@ -28,7 +29,7 @@ h3 {
 
 p {
   font-family: monospace;
-  font-size: 3em;
+  font-size: 16px;
   color: #e4f9fa;
   padding: 0.3em;
 }
@@ -49,7 +50,7 @@ footer {
   flex-flow: row wrap;
   background-color: #169e59;
   justify-content: left;
-  font-size: 4em;
+  font-size: 2vw;
   padding: 3.13em;
   margin-bottom: 1em;
 }
@@ -238,15 +239,17 @@ a:visited {
 
 .introContent {
   display: flex;
-  flex-flow: row wrap;
-  position: relative;
+  flex-flow: row column;
+
+  max-width: 100%;
+  height: auto;
 }
 
 .sideToIntro {
   display: flex;
   flex-direction: column;
-  max-width: 20%;
-  max-height: 5%;
+  max-width: 30%;
+  max-height: auto;
   position: relative;
   padding: 1em;
 }
