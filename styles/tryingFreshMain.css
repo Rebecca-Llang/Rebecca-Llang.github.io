@@ -54,6 +54,7 @@ li a:hover {
   display: flex;
   padding: 3em;
   flex-direction: column;
+  align-items: stretch;
 }
 
 .header {
@@ -78,6 +79,7 @@ li a:hover {
 /* intro parent and 2 children, one fot text one for image */
 
 .introContainer {
+  display: flex;
 }
 
 .intro {
