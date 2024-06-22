@@ -17,15 +17,16 @@ h2 {
   font-size: 20px;
   color: #a6fefe;
   letter-spacing: 0.2em;
-  align-self: center;
   padding: 1em;
+  text-align: center;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-family: monospace;
   color: #1bcb73;
   letter-spacing: 0.1em;
+  line-height: 1.8;
 }
 
 /* HEADER AND BLOG NAV */
@@ -128,6 +129,7 @@ li a:hover {
 
 .block1bebes {
   background-color: #003c3a;
-  padding: 1em;
+  padding: 3em;
   margin: 1em;
+  border: #a6fefe solid;
 }
