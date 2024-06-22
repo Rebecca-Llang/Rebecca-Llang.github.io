@@ -1,0 +1,74 @@
+/* HTML */
+
+body {
+  background-color: #003c3a;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 4em;
+  color: #a6fefe;
+  letter-spacing: 0.2em;
+}
+
+/* HEADER AND BLOG NAV */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+
+  text-align: center;
+  padding: 2em 2em;
+}
+a {
+  text-decoration: none;
+  background-color: #198d7d;
+  border: #a6fefe solid;
+  color: #a6fefe;
+}
+
+li a:link {
+  color: #169e59;
+}
+li a:visited {
+  color: #1bcb73;
+}
+li a:hover {
+  background-color: #073b34;
+}
+
+/*parent for header and nav */
+.blogHeader {
+  background-color: #169e59;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-flow: row flex;
+  align-self: center;
+  background-color: #169e59;
+  padding: 1.2em;
+}
+
+.blogNav {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+  justify-content: space-between;
+  font-size: large;
+  font-family: monospace;
+  letter-spacing: 0.2em;
+}
