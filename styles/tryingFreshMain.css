@@ -79,7 +79,7 @@ li a:hover {
   align-self: center;
   background-color: #169e59;
   padding: 1.2em;
-  font-size: 10em;
+  font-size: 5em;
 }
 
 .blogNav {
@@ -87,7 +87,7 @@ li a:hover {
   flex-flow: row wrap;
   align-self: center;
   justify-content: space-between;
-  font-size: 1em;
+  font-size: 0.5em;
   font-family: monospace;
   letter-spacing: 0.2em;
 }
@@ -107,6 +107,7 @@ li a:hover {
   background-color: #073b34;
   border: #a6fefe solid;
   padding: 1em;
+  font-size: 4em;
 }
 
 .image {
