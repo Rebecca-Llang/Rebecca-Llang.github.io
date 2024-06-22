@@ -133,3 +133,19 @@ li a:hover {
   margin: 1em;
   border: #a6fefe solid;
 }
+
+/* block 2, intially for /eq/mindfullness*/
+
+.block2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #003c3a;
+}
+
+.block2bebes {
+  background-color: #198d7d;
+
+  padding: 3em;
+  margin: 1em;
+  border: #a6fefe solid;
+}
