@@ -7,7 +7,7 @@ body {
 
 h1 {
   font-family: monospace;
-  font-size: 20px;
+  font-size: 6vw;
   color: #a6fefe;
   letter-spacing: 0.2em;
 }
@@ -43,7 +43,7 @@ li {
 
 li a {
   display: block;
-  font-size: 5em;
+  font-size: 2vw;
   text-align: center;
   padding: 2em 2em;
 }
@@ -111,13 +111,11 @@ li a:hover {
   font-size: 4em;
 }
 
-.image {
+.introImg {
   background-color: #073b34;
-  position: relative;
-  flex-wrap: wrap;
-  width: 25%;
-  height: 25%;
-  align-items: center;
+
+  width: 100%;
+  height: auto;
 }
 
 /* block 1 and block1bebese for first lot of content ie EQ and IQ*/
