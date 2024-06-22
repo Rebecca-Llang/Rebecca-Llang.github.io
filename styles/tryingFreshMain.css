@@ -7,20 +7,22 @@ body {
 
 h1 {
   font-family: monospace;
-  font-size: 6em;
+  font-size: 20px;
   color: #a6fefe;
   letter-spacing: 0.2em;
 }
 
 h2 {
   font-family: monospace;
-  font-size: 2em;
+  font-size: 20px;
   color: #a6fefe;
   letter-spacing: 0.2em;
+  align-self: center;
+  padding: 1em;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 16px;
   font-family: monospace;
   color: #1bcb73;
   letter-spacing: 0.1em;
@@ -40,7 +42,7 @@ li {
 
 li a {
   display: block;
-
+  font-size: 5em;
   text-align: center;
   padding: 2em 2em;
 }
@@ -65,7 +67,6 @@ li a:hover {
 .blogHeader {
   background-color: #169e59;
   width: 100%;
-
   display: flex;
   padding: 3em;
   flex-direction: column;
@@ -78,7 +79,7 @@ li a:hover {
   align-self: center;
   background-color: #169e59;
   padding: 1.2em;
-  font-size: 0.7em;
+  font-size: 10em;
 }
 
 .blogNav {
@@ -113,5 +114,19 @@ li a:hover {
   position: relative;
   flex-wrap: wrap;
   width: 25%;
+  height: 25%;
   align-items: center;
+}
+
+/* block 1 and block1bebese for first lot of content ie EQ and IQ*/
+.block1 {
+  display: flex;
+  flex: column;
+  background-color: #169e59;
+}
+
+.block1bebes {
+  background-color: #003c3a;
+  padding: 1em;
+  margin: 1em;
 }
