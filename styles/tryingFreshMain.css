@@ -2,6 +2,7 @@
 
 body {
   background-color: #003c3a;
+  size: 16px;
 }
 
 h1 {
@@ -9,6 +10,20 @@ h1 {
   font-size: 6em;
   color: #a6fefe;
   letter-spacing: 0.2em;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 2em;
+  color: #a6fefe;
+  letter-spacing: 0.2em;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: monospace;
+  color: #1bcb73;
+  letter-spacing: 0.1em;
 }
 
 /* HEADER AND BLOG NAV */
@@ -50,7 +65,7 @@ li a:hover {
 .blogHeader {
   background-color: #169e59;
   width: 100%;
-  position: fixed;
+
   display: flex;
   padding: 3em;
   flex-direction: column;
@@ -79,11 +94,24 @@ li a:hover {
 /* intro parent and 2 children, one fot text one for image */
 
 .introContainer {
-  display: flex;
+  display: inline-flex;
+  background-color: black;
+  padding: 1em;
+  width: 100%;
+
+  justify-content: space-between;
 }
 
 .intro {
+  background-color: #073b34;
+  border: #a6fefe solid;
+  padding: 1em;
 }
 
 .image {
+  background-color: #073b34;
+  position: relative;
+  flex-wrap: wrap;
+  width: 25%;
+  align-items: center;
 }
