@@ -1,8 +1,13 @@
 body {
   background-color: #003c3a;
-  height: 100%;
   width: 100%;
-  size: 16px;
+  height: 100%;
+  max-width: 1440px; /*might be an issues, change to 2560px maybe*/
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: monospace;
+  box-sizing: border-box; /* Includes padding and border in the element’s total width and height, Simplifies layout calculations */
 }
 
 h1 {
