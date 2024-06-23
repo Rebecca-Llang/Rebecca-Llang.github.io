@@ -17,7 +17,6 @@ h1 {
   color: #a6fefe;
 }
 
-/* 2ND HEADER FOR INTRODUCING NEW TOPICS*/
 h2 {
   font-family: monospace;
   font-size: 2.5em;
@@ -26,6 +25,7 @@ h2 {
   letter-spacing: 0.1em;
 }
 
+/* h3 is 2ND HEADER FOR INTRODUCING NEW TOPICS*/
 h3 {
   font-family: monospace;
   font-size: 2em;
