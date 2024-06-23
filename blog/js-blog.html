@@ -9,31 +9,32 @@
   </head>
 
   <body>
+
     <div class="header">
       <h1>JS, DOM & DevTools</h1>
     </div>
-    <!--intro-->
-    <!-- <div class="intro">
-      <p id="openingIntro">
-         DO THIS AT THE END
-      </p>
-    </div>-->
+
+  
 
     <!--JS HTML CSS -->
+        <!-- JS HTML CSS Header-->
     <div class="homeContent">
-      <div class="header" style="margin-top: 1em"><h3>JS, HTML & CSS</h3></div>
+      <div class="header"><h3>JS, HTML & CSS</h3></div>
     </div>
+
+        <!--JS HTML CSS intro -->
+
 
     <div class="introContent">
       <div class="intro">
-        <p id="simpleDef">
+        <p>
           HTML is the skeleton of your webpage. It provides the basic structure,
           like headers, text, images, and links. Think of HTML as the backbone
           and the various elements as the limbs that extend and interact with
           the CSS and JS. Without HTML, the website would lack structure and
           content.
         </p>
-        <p id="simpleDef">
+        <p >
           CSS is the aesthetics of your webpage. CSS is responsible for how
           everything looks and is positioned on the screen. Imagine CSS as the
           clothing and style that make the HTML look appealing. It tells the web
@@ -42,7 +43,7 @@
           skeleton framework provided by HTML. It is the interior decorator of
           the web.
         </p>
-        <p id="simpleDef">
+        <p >
           JavaScript is the brain, dictating action or behavior of your webpage.
           JS makes your website interactive and responsive to user actions. For
           example, JavaScript can handle what happens when you click a button,
@@ -51,22 +52,26 @@
           experience.
         </p>
       </div>
-      <div class="sideToIntro" style="max-width: 100%; height: auto">
-        <img src="/images-blog/html.png" alt="html file icon" />
-        <img src="/images-blog/css.png" alt="css file icon" />
-        <img src="/images-blog/js.png" alt="js file icon" />
+      <div id="iconImages" class="sideToIntro" style="width: 100%; height: auto">
+        <img src="/images-blog/html.png" alt="html file icon" style="width: 30%; height: auto"/>
+        <img src="/images-blog/css.png" alt="css file icon" style="width: 30%; height: auto" />
+        <img src="/images-blog/js.png" alt="js file icon"  style="width: 30%; height: auto"/>
+      </div>
+    </div>
+
+<!-- JS IN RELATION TO HTML CSS  -->
+     <!-- HEADER TO JS IN RELATION TO HTML CSS  -->
+    <div class="homeContent">
+      <div class="header">
+        <h3>JS RELATION TO HTML & CSS</h3>
       </div>
     </div>
 
     <!-- JS IN RELATION TO HTML CSS  -->
-    <div class="homeContent">
-      <div class="header" style="margin-top: 1em">
-        <h3>JS RELATION TO HTML & CSS</h3>
-      </div>
-    </div>
     <div class="whyWhenHow">
+      <!-- INTRO JS IN RELATION TO HTML CSS  -->
       <div class="intro">
-        <p id="simpleDef">
+        <p>
           JavaScript allows us to change and edit the content and style of our
           webpage, alongside HTML and CSS. JS often uses objects, functions and
           loops to make what you want to happen, happen. It references classes
@@ -77,27 +82,25 @@
           as a way to edit our DOM quickly in the future.
         </p>
       </div>
-
+    <!-- When to use JS IN RELATION TO HTML CSS  -->
       <div class="when">
         <p>
           JS interacts with HTML and CSS, within the DOM to edit, read and write
           to the files that build our overall finished project.
         </p>
       </div>
-      <div class="when">
-        <!-- put something in here later -->
-      </div>
-    </div>
+       </div>
 
-    <!-- CONTROL FLOW AND LOOPS-->
+<!-- CONTROL FLOW AND LOOPS-->
     <div class="homeContent">
-      <div class="header" style="margin-top: 1em">
+   <!-- HEADER CONTROL FLOW AND LOOPS-->    
+      <div class="header">
         <h3>CONTROL FLOW & LOOPS</h3>
       </div>
     </div>
-
+    <!-- INTRO CONTROL FLOW AND LOOPS-->
     <div class="intro">
-      <p id="simpleDef">
+      <p>
         JavaScript’s control flow is built by using statements and functions
         such as if/else and switch statements, loops and function calls.
       </p>
@@ -117,6 +120,8 @@
       </p>
     </div>
 
+    <!-- WHEN TO USE CONTROL FLOW AND LOOPS--> 
+
     <div class="whyWhenHow">
       <div class="when">
         <p>
@@ -125,6 +130,7 @@
           different conditions.
         </p>
       </div>
+
       <div class="when">
         <p>
           Use loops to repeat tasks, iterate over arrays and objects, do
@@ -134,15 +140,16 @@
       </div>
     </div>
 
-    <!-- ARRAYS AND OBJECTS-->
+  <!-- ARRAYS AND OBJECTS-->
     <div class="homeContent">
+      <!-- header ARRAYS AND OBJECTS-->
       <div class="header" style="margin-top: 1em">
         <h3>ARRAYS AND OBJECTS</h3>
       </div>
     </div>
-
+    <!-- intro ARRAYS AND OBJECTS-->
     <div class="intro">
-      <p id="simpleDef">
+      <p>
         Arrays are containers that hold a collection of elements with the same
         type of data. Arrays start their element position at 0. An array could
         have a .length of ‘4’, which would be placed as [0,1,2,3] within the
@@ -150,7 +157,7 @@
         index. They are used when you want to group similar items, such as
         names, products or numbers.
       </p>
-      <p id="simpleDef">
+      <p>
         Objects are containers that are used to group multiple different sets of
         related data. Each set of data is given in pairs, with a key and a
         value. They are used for things like individual people’s information,
@@ -159,15 +166,16 @@
         functions.
       </p>
     </div>
-
-    <div class="whyWhenHow" id="array">
+      <!-- when to use ARRAYS-->
+    <div class="whyWhenHow">
       <div class="when">
         <p>Think of arrays as a way to store and access data.</p>
       </div>
-      <div class="how"></div>
+       <!-- future: example of how to ARRAYS <div class="how"></div> -->
     </div>
 
-    <div class="whyWhenHow" id="object">
+    <!-- when to use objects-->
+    <div class="whyWhenHow">
       <div class="when">
         <p>
           We can see objects as a way to structure data, with properties that
@@ -175,37 +183,21 @@
           within them.
         </p>
       </div>
-      <div class="how"></div>
+
+       <!-- future: example of how to ARRAYS AND OBJECTS <div class="how"></div> -->
     </div>
 
-    <!--FUNCTIONS -->
+  <!--FUNCTIONS -->
+      <!--FUNCTIONS Header-->
     <div class="homeContent">
-      <div
-        class="header"
-        style="margin-top: 1em; display: flex; flex-flow: row wrap"
-      >
+      <div class="header">
         <h3>FUNCTIONS</h3>
       </div>
     </div>
-    <!--- put in this in side intro and .intro into container
-
-<div class="exampleCode" style="display: flex; flex-direction: row">
-          <h3
-            style="
-              background-color: black;
-              padding: 1em;
-              font-size: 1em;
-              font-weight: 30%;
-            "
-          >
-            functionName(variables) { method }
-          </h3>
-        </div>
-        
-        come back to the above, its the syntax example 
-        -->
+    
+      <!--FUNCTIONS intro-->
     <div class="intro">
-      <p id="simpleDef">
+      <p>
         A function is an object that holds a method to do something. As objects,
         they help us to organise, and reuse code, in sections that make sense
         for the task. Functions are like recipes, there is the name, the steps
@@ -213,12 +205,14 @@
       </p>
     </div>
 
+      <!--FUNCTIONS example  potential inline style for example needed <p style="color: aqua; padding-right: 2em"-->
+
     <div class="example">
-      <p style="color: aqua; padding-right: 2em">Creating a function:</p>
+      <p>Creating a function:</p>
 
       <div class="exampleCode">
         <p>Example</p>
-        <p style="color: aqua; padding-right: 2em">
+        <p>
           functionName(variables) { method }
         </p>
 
@@ -250,21 +244,24 @@
 
     <!-- THE DOM-->
     <div class="homeContent">
-      <div class="header" style="margin-top: 1em"><h3>THE DOM</h3></div>
+       <!-- header THE DOM-->
+      <div class="header">
+        <h3>THE DOM</h3>
+      </div>
     </div>
-
+      <!-- intro THE DOM-->
     <div class="intro">
       <p>
         The DOM is the window object. It is the interface of your webpage. It
         represents the page in nodes and objects.
       </p>
       <p>
-        This means It deals with everything that lives in your document. It is
+        It deals with everything that lives in your document. It is
         the gateway to all the HTML elements that make up the page, and allows
         you to both read, write and edit your document
       </p>
     </div>
-
+      <!-- when to use THE DOM-->
     <div class="whyWhenHow">
       <div class="when">
         <p>
@@ -274,6 +271,7 @@
           your document.
         </p>
       </div>
+
       <div class="when">
         <img
           src="/images-blog/Example-of-DOM-Node-Tree.png"
@@ -281,6 +279,9 @@
         />
       </div>
     </div>
+
+    <!-- dom node tree explanation THE DOM-->
+
     <div class="whyWhenHow">
       <div class="how">
         <p>
@@ -302,23 +303,81 @@
           broadly, where as #ID tags are for one specific thing.
         </p>
       </div>
-      <div class="how">
-        <p>Common methods used include:</p>
-        <p>getElementById</p>
-        <p>querySelector</p>
-        <p>innerHTML</p>
-        <p>textContent</p>
+       </div>
+
+       <!-- how to use THE DOM-->
+
+    <div class="whyWhenHow">
+      <div class="when">
+        To start, let’s open the DevTools on Chrome. Right click on the webpage,
+        and then scroll and select inspect.
       </div>
+      
+      <!-- examples of how inspect element THE DOM-->
+
+      <div class="example">
+      <p>How to Inspect an Element:</p>
+
+      <div class="exampleCode">
+        <p>Steps</p>
+        <p>
+          <ol>
+            <li>Click on the “elements” tab. This displays the HTML and CSS of the page</li>
+            <li>Hover over elements in this panel to highlight where on the page they sit.</li>
+            <li>Click on the element in the HTML tree to see and edit its CSS properties in the “Styles” panel.</li>
+          </ol>
+          
+        </p>
+</div>
+</div>
+    <!-- examples of how modify font size THE DOM-->
+    <div class="how">
+      <div class="example">
+          <p>How modify font size in 'p' tags:</p>
+        <div class="exampleCode">
+          <p>Steps:</p>
+      <p>
+    <ol>
+      <li>Inspect the 'p' element using the steps above</li>
+      <li>Edit CSS: Use the "Styles" panel to locate the 'font-size' property under the CSS rules for the 'p' tag. </li>
+      <li>Click on the value next to font-size to edit it. You can change it to values like 20px (total pixels), 1.5em (relative to parent), or % to see the changes instantly.
+      </li>
+      <li>Add new CSS: if there isn't an existing 'font-size' property, you can add a new one.</li>
+      <li>Click on the empty space within the rule block and type font-size: 20px; (or any desired size).
+      </li>
+    </ol>
+  </p>
+</div>
+</div>
+</div>
+   <!-- examples of how to view console log THE DOM-->
+<div class="how">
+
+    <div class="example">
+      <p>How to view console logs:</p>
+    <div class="exampleCode">
+      <p>Steps</p>
+      <p>
+        <ol>
+          <li>Click on  the "Console" tab in DevTools.</li>
+          <li>Here, you can see logs, warnings, and errors that JavaScript outputs.</li>
+          <li>Use console.log(), console.warn(), and console.error() in your JavaScript code to print messages to the console.</li>
+          <li>You can also interact with JavaScript directly by typing commands into the console.</li>
+        </ol>
+      </p>
     </div>
+    </div>
+  </div>
     <!--- example of editing p tag after DEV Tools-->
     
 
     <!-- DEV TOOLS-->
     <div class="homeContent">
-      <div class="header" style="margin-top: 1em"><h3>DEVTOOLS</h3></div>
+       <!-- header DEV TOOLS-->
+      <div class="header"><h3>DEVTOOLS</h3></div>
     </div>
-
-    <div class="intro">
+       <!-- intro DEV TOOLS-->
+    <div id="devToolsIntro" class="intro">
       <p>
         DevTools are built in tools in web browsers that allow it to inspect,
         debug and draw information out of webpages. The difference between the
@@ -327,50 +386,36 @@
         and associated files like .CSS. Being able to see, and edit in real
         time, allows us to be more effective and efficient when programming.
       </p>
+    
+    <div class="how">
+      <p>Common DevTool methods used include:</p>
+      <p>getElementById</p>
+      <p>querySelector</p>
+      <p>innerHTML</p>
+      <p>textContent</p>
+    </div>
     </div>
 
-    <div class="whyWhenHow">
-      <div class="when">
-        To start, let’s open the DevTools on Chrome. Right click on the webpage,
-        and then scroll and select inspect.
-      </div>
-      <div class="how"></div>
-    </div>
+      <!-- example of using DEV TOOLS-->
 
-    <div class="example">
-      <p style="color: aqua; padding-right: 2em">How to Inspect an Element:</p>
+<div class="exampleCode">
+  <p>Using JS in DevTools:</p>
+  <p>
+    <ol>
+      <li></li>
+      </ol>
+    
+  </p>
+</div>
+</div>
+  
 
-      <div class="exampleCode">
-        <p>Steps</p>
-        <p style="color: aqua; padding-right: 2em">
-          <ol>
-            <li>Click on the “elements” tab. This displays the HTML and CSS of the page</li>
-            <li>Hover over elements in this panel to highlight where on the page they sit.</li>
-            <li>Click on the element in the HTML tree to see and edit its CSS properties in the “Styles” panel.</li>
-            
-          </ol>
-          
-        </p>
-</div></div>
-        <div class="example">
-          <p style="color: aqua; padding-right: 2em">How to view console logs:</p>
-        <div class="exampleCode">
-          <p>Steps</p>
-          <p style="color: aqua; padding-right: 2em">
-            <ol>
-              <li>Click on  the "Console" tab in DevTools.</li>
-              <li>Here, you can see logs, warnings, and errors that JavaScript outputs.</li>
-              <li>Use console.log(), console.warn(), and console.error() in your JavaScript code to print messages to the console.</li>
-              <li>You can also interact with JavaScript directly by typing commands into the console.</li>
-            </ol>
-          </p>
-        </div>
-        </div>
+        
 <!-- EXAMPLE CHANGING DOM P TAG VIA DEVTOOLS -->
         <div class="whyWhenHow">
           <div class="how">
             <p>
-              Example: Let's make the font of this 'p' tag, larger via using the DevTool
+              Example: Let's make the font of this 'p' tag, with the id "#devToolExample" larger using the DevTool
               getElementById via the DOM.
             </p>
             <img
@@ -378,26 +423,31 @@
               alt="code with layout and sizing issues"
             />
             </div>
-            
-          
-          <div class="example">
-            <p style="color: aqua; padding-right: 2em">How modify font size in 'p' tags:</p>
-          <div class="exampleCode">
-            <p>Steps:</p>
-            <p style="color: aqua; padding-right: 2em">
+    <!-- steps EXAMPLE CHANGING DOM P TAG VIA DEVTOOLS -->
+          <div class="how">
+            <p>Let's go through the steps after entering the console of the DOM</p>
+            <p>
               <ol>
-                <li>Inspect the 'p' element using the steps above</li>
-                <li>Edit CSS: Use the "Styles" panel to locate the 'font-size' property under the CSS rules for the 'p' tag. </li>
-                <li>Click on the value next to font-size to edit it. You can change it to values like 20px (total pixels), 1.5em (relative to parent), or % to see the changes instantly.
-                </li>
-                <li>Add new CSS: if there isn't an existing 'font-size' property, you can add a new one.</li>
-                <li>Click on the empty space within the rule block and type font-size: 20px; (or any desired size).
-                </li>
-              </ol>
+                <li>Firstly, make sure our element has an ID, and we've entered the console on the DOM</li>
+         
+                </ol>
+              
             </p>
+
+            <div class="how">
+              <p>
+                Inside the console, create a variable that accesses the ID we want
+              </p>
+              <img
+                
+              />
+              </div>
           </div>
-          </div>
-        </div>
+
+          <!-- example image-->
+          
+          
+        
 
     <!--CONCLUSION-->
     <div class="intro"></div>
