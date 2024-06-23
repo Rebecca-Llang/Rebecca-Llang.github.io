@@ -95,7 +95,7 @@
     <div class="homeContent">
    <!-- HEADER CONTROL FLOW AND LOOPS-->    
       <div class="header">
-        <h3>CONTROL FLOW & LOOPS</h3>
+        <h2>CONTROL FLOW & LOOPS</h2>
       </div>
     </div>
     <!-- INTRO CONTROL FLOW AND LOOPS-->
@@ -144,7 +144,7 @@
     <div class="homeContent">
       <!-- header ARRAYS AND OBJECTS-->
       <div class="header" style="margin-top: 1em">
-        <h3>ARRAYS AND OBJECTS</h3>
+        <h2>ARRAYS AND OBJECTS</h2>
       </div>
     </div>
     <!-- intro ARRAYS AND OBJECTS-->
@@ -191,7 +191,7 @@
       <!--FUNCTIONS Header-->
     <div class="homeContent">
       <div class="header">
-        <h3>FUNCTIONS</h3>
+        <h2>FUNCTIONS</h2>
       </div>
     </div>
     
@@ -246,7 +246,7 @@
     <div class="homeContent">
        <!-- header THE DOM-->
       <div class="header">
-        <h3>THE DOM</h3>
+        <h2>THE DOM</h2>
       </div>
     </div>
       <!-- intro THE DOM-->
@@ -374,7 +374,7 @@
     <!-- DEV TOOLS-->
     <div class="homeContent">
        <!-- header DEV TOOLS-->
-      <div class="header"><h3>DEVTOOLS</h3></div>
+      <div class="header"><h2>DEVTOOLS</h2></div>
     </div>
        <!-- intro DEV TOOLS-->
     <div id="devToolsIntro" class="intro">
@@ -411,18 +411,24 @@
   
 
         
-<!-- EXAMPLE CHANGING DOM P TAG VIA DEVTOOLS -->
+<!-- debugging VIA DEVTOOLS -->
         <div class="whyWhenHow">
           <div class="how">
             <p>
-              Example: Let's make the font of this 'p' tag, with the id "#devToolExample" larger using the DevTool
-              getElementById via the DOM.
+              Example: Let's figure out why the JS RELATIONSHIP TO CSS header doesn't look the same as the JS, CSS and HTML header.
             </p>
-            <img
-              src="/images-blog/DOMexample1.png"
-              alt="code with layout and sizing issues"
+            <img src="/images-blog/finalDevToolExample.png" alt="header that is too large"
             />
+          <p>Above we can see the classes that it belongs to on the left, and we can see what styling is applied on the right</p>
+          <img src="/images-blog/finalDevtoolsExample2.png" alt="header that we want"/>
+<p>Above here, under the header class, we can see that it is within an 'h2' tag</p>
+<p>Let's compare them to see if that is what is causing the layout difference</p>
+<img src="/images-blog/devtoolsExampleFinal4.png" alt="h tags identified as problem"/>
+<p>Now we can see that the html tags on the headers are different. The first header is using a h3 tag, where as the RELATION header is 'h2'. Let's change that so they match.</p>
+<img src="/images-blog/finalDEVTOOL.png" alt="final fix"/>
+<p>WOO! WE DID IT!</p>
             </div>
+
     <!-- steps EXAMPLE CHANGING DOM P TAG VIA DEVTOOLS -->
           <div class="how">
             <p>Let's go through the steps after entering the console of the DOM</p>
