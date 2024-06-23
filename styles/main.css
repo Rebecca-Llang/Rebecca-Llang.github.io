@@ -9,6 +9,7 @@ body {
   box-sizing: border-box; /* Includes padding and border in the element’s total width and height, Simplifies layout calculations */
 }
 
+/*MAIN HEADER FOR EACH PAGE*/
 h1 {
   font-family: monospace;
   font-size: 6vw;
@@ -16,6 +17,7 @@ h1 {
   color: #a6fefe;
 }
 
+/* 2ND HEADER FOR INTRODUCING NEW TOPICS*/
 h2 {
   font-family: monospace;
   font-size: 2.5em;
@@ -72,6 +74,7 @@ footer {
   position: relative;
 }
 
+/* HOME CONTENT, PARENT CONTAINER FOR H2 */
 .homeContent {
   display: flex;
   flex-flow: row;
@@ -187,6 +190,7 @@ a:visited {
   color: aqua;
 }
 
+/* I'm using this often as parent for the intro, and when and how*/
 .whyWhenHow {
   display: flex;
   flex-flow: row wrap;
@@ -209,6 +213,7 @@ a:visited {
   margin: 1em;
 }
 
+/* example parent container for example code*/
 .example {
   display: flex;
   flex-flow: row flex;
@@ -220,6 +225,7 @@ a:visited {
   margin-bottom: 2em;
 }
 
+/*used in example and whenwhathow parents*/
 .how {
   color: #a6fefe;
   background-color: black;
@@ -228,6 +234,7 @@ a:visited {
   border: 1px solid aqua;
 }
 
+/*child container of example*/
 .exampleCode {
   border: #a6fefe;
   flex: relative;
