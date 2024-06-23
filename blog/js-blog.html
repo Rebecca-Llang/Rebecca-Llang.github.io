@@ -253,24 +253,149 @@
       <div class="header" style="margin-top: 1em"><h3>THE DOM</h3></div>
     </div>
 
-    <div class="intro"></div>
+    <div class="intro">
+      <p>
+        The DOM is the window object. It is the interface of your webpage. It
+        represents the page in nodes and objects.
+      </p>
+      <p>
+        This means It deals with everything that lives in your document. It is
+        the gateway to all the HTML elements that make up the page, and allows
+        you to both read, write and edit your document
+      </p>
+    </div>
 
     <div class="whyWhenHow">
-      <div class="when"></div>
-      <div class="how"></div>
+      <div class="when">
+        <p>
+          This means it allows us to dynamically access and update the content,
+          structure and style of a document. Nodes can be elements such as
+          attributes, text content, comments, and anything that contributes to
+          your document.
+        </p>
+      </div>
+      <div class="when">
+        <img
+          src="/images-blog/Example-of-DOM-Node-Tree.png"
+          alt="DOM node tree"
+        />
+      </div>
     </div>
+    <div class="whyWhenHow">
+      <div class="how">
+        <p>
+          Root Node: The entire document is represented by a single root node,
+          which is the 'html' element.
+        </p>
+        <p>
+          Element Nodes: Each HTML tag (such as 'div' or 'p') becomes an element
+          node. These nodes are children of the root node or other element
+          nodes.
+        </p>
+        <p>
+          Text Nodes: Text within elements (like within the 'p' tag) are
+          represented as text nodes.
+        </p>
+        <p>
+          Attribute Nodes: Attributes of HTML tags (#id, .class) are also nodes
+          associated with their respective elements. Classes can be applied
+          broadly, where as #ID tags are for one specific thing.
+        </p>
+      </div>
+      <div class="how">
+        <p>Common methods used include:</p>
+        <p>getElementById</p>
+        <p>querySelector</p>
+        <p>innerHTML</p>
+        <p>textContent</p>
+      </div>
+    </div>
+    <!--- example of editing p tag after DEV Tools-->
+    
 
     <!-- DEV TOOLS-->
     <div class="homeContent">
       <div class="header" style="margin-top: 1em"><h3>DEVTOOLS</h3></div>
     </div>
 
-    <div class="intro"></div>
+    <div class="intro">
+      <p>
+        DevTools are built in tools in web browsers that allow it to inspect,
+        debug and draw information out of webpages. The difference between the
+        DOM and DevTools, is that the DOM is a conceptual structure, whereas
+        DevTools are the actual methods used for examining and editing the DOM,
+        and associated files like .CSS. Being able to see, and edit in real
+        time, allows us to be more effective and efficient when programming.
+      </p>
+    </div>
 
     <div class="whyWhenHow">
-      <div class="when"></div>
+      <div class="when">
+        To start, let’s open the DevTools on Chrome. Right click on the webpage,
+        and then scroll and select inspect.
+      </div>
       <div class="how"></div>
     </div>
+
+    <div class="example">
+      <p style="color: aqua; padding-right: 2em">How to Inspect an Element:</p>
+
+      <div class="exampleCode">
+        <p>Steps</p>
+        <p style="color: aqua; padding-right: 2em">
+          <ol>
+            <li>Click on the “elements” tab. This displays the HTML and CSS of the page</li>
+            <li>Hover over elements in this panel to highlight where on the page they sit.</li>
+            <li>Click on the element in the HTML tree to see and edit its CSS properties in the “Styles” panel.</li>
+            
+          </ol>
+          
+        </p>
+</div></div>
+        <div class="example">
+          <p style="color: aqua; padding-right: 2em">How to view console logs:</p>
+        <div class="exampleCode">
+          <p>Steps</p>
+          <p style="color: aqua; padding-right: 2em">
+            <ol>
+              <li>Click on  the "Console" tab in DevTools.</li>
+              <li>Here, you can see logs, warnings, and errors that JavaScript outputs.</li>
+              <li>Use console.log(), console.warn(), and console.error() in your JavaScript code to print messages to the console.</li>
+              <li>You can also interact with JavaScript directly by typing commands into the console.</li>
+            </ol>
+          </p>
+        </div>
+        </div>
+<!-- EXAMPLE CHANGING DOM P TAG VIA DEVTOOLS -->
+        <div class="whyWhenHow">
+          <div class="how">
+            <p>
+              Example: Let's make the font of this 'p' tag, larger via using the DevTool
+              getElementById via the DOM.
+            </p>
+            <img
+              src="/images-blog/DOMexample1.png"
+              alt="code with layout and sizing issues"
+            />
+          </div>
+          <div class="example">
+            <p style="color: aqua; padding-right: 2em">How modify font size in 'p' tags:</p>
+          <div class="exampleCode">
+            <p>Steps:</p>
+            <p style="color: aqua; padding-right: 2em">
+              <ol>
+                <li>Inspect the 'p' element using the steps above</li>
+                <li>Edit CSS: Use the "Styles" panel to locate the 'font-size' property under the CSS rules for the 'p' tag. </li>
+                <li>Click on the value next to font-size to edit it. You can change it to values like 20px (total pixels), 1.5em (relative to parent), or % to see the changes instantly.
+                </li>
+                <li>Add new CSS: if there isn't an existing 'font-size' property, you can add a new one.</li>
+                <li>Click on the empty space within the rule block and type font-size: 20px; (or any desired size).
+                </li>
+              </ol>
+            </p>
+          </div>
+          </div>
+        </div>
 
     <!--CONCLUSION-->
     <div class="intro"></div>
