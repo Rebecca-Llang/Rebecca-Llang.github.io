@@ -17,9 +17,10 @@ h1 {
   color: #a6fefe;
 }
 
+/* heading for bloglinks, */
 h2 {
   font-family: monospace;
-  font-size: 2.5em;
+  font-size: 4vw;
   color: #a6fefe;
   padding: 1em;
   letter-spacing: 0.1em;
@@ -86,11 +87,17 @@ footer {
   margin: auto;
 }
 
+/* home page bloglinks container 23/06*/
+
+.blogLinksContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #198d7d;
+}
 .blogLinks {
   font-family: monospace;
-  font-size: 1.69em;
-  flex-grow: 1;
-  flex-shrink: 1;
+  font-size: 1.5vw;
+
   flex-basis: auto;
   max-width: 50%;
   padding: 1em;
