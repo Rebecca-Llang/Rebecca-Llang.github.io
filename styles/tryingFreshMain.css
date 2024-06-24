@@ -1,4 +1,4 @@
-/* HTML */
+/*  FRESH CSS TO MERGE HTML */
 
 body {
   background-color: #003c3a;
@@ -29,7 +29,7 @@ p {
   line-height: 1.8;
 }
 
-/* HEADER AND BLOG NAV */
+/* HEADER AND BLOG NAV 
 ul {
   list-style: none;
   margin: 0;
@@ -62,9 +62,9 @@ li a:visited {
 }
 li a:hover {
   background-color: #073b34;
-}
+} */
 
-/*parent for header and nav */
+/*parent for header and nav 
 .blogHeader {
   background-color: #169e59;
   width: 100%;
@@ -92,7 +92,7 @@ li a:hover {
   font-family: monospace;
   letter-spacing: 0.2em;
 }
-
+ */
 /* intro parent and 2 children, one fot text one for image */
 
 .introContainer {
