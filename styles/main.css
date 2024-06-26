@@ -29,7 +29,7 @@ h2 {
 /* from freshCSS */
 h2 {
   font-family: monospace;
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #a6fefe;
   letter-spacing: 0.2em;
   padding: 1em;
