@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   background-color: #003c3a;
   width: 100%;
@@ -7,60 +8,6 @@ body {
   line-height: 1.5;
   font-family: monospace;
   box-sizing: border-box; /* Includes padding and border in the element’s total width and height, Simplifies layout calculations */
-}
-
-/*MAIN HEADER FOR EACH PAGE*/
-h1 {
-  font-family: monospace;
-  font-size: 6vw;
-  letter-spacing: 0.2em;
-  color: #a6fefe;
-}
-
-/* from freshCSS */
-h2 {
-  font-family: monospace;
-  font-size: 20px;
-  color: #a6fefe;
-  letter-spacing: 0.2em;
-  padding: 1em;
-  text-align: center;
-}
-*/
-
-/* h3 is 2ND HEADER FOR INTRODUCING NEW TOPICS*/
-h3 {
-  font-family: monospace;
-  font-size: 2em;
-  color: #a6fefe;
-  letter-spacing: 0.2em;
-}
-
-p {
-  font-family: monospace;
-  font-size: 18px;
-  color: #e4f9fa;
-  padding: 0.3em;
-  letter-spacing: 0.1em;
-  line-height: 1.8;
-}
-
-/* Below: UNTETHERED OL, UL AND LI only*/
-
-ul {
-  list-style: none;
-}
-
-ol {
-  color: white;
-}
-
-li {
-  font-family: monospace;
-  padding: 5rem;
-  color: #a6fefe;
-  padding: 1em;
-  margin: 1em;
 }
 
 a {
@@ -73,13 +20,92 @@ a {
 li a:link {
   color: #23df81;
 }
+
 li a:visited {
   color: #1bcb73;
 }
+
 li a:hover {
   background-color: #073b34;
 }
 
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: monospace;
+  color: #a6fefe;
+  letter-spacing: 0.2em;
+}
+
+h1 {
+  font-size: 6vw;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+/* Text */
+p {
+  font-size: 18px;
+  color: #e4f9fa;
+  padding: 0.3em;
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+}
+
+ol {
+  color: white;
+}
+
+li {
+  font-family: monospace;
+  color: #a6fefe;
+  padding: 1em;
+  margin: 1em;
+}
+
+/* Navigation */
+.blogNav {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+  justify-content: space-between;
+  font-family: monospace;
+}
+
+.blogNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.blogNav li {
+  display: inline;
+  float: left;
+}
+
+.blogNav li a {
+  display: block;
+  font-size: 1vw;
+  text-align: center;
+  padding: 2em 2em;
+}
+
+/* Footer */
 footer {
   display: flex;
   flex-flow: row wrap;
@@ -91,7 +117,7 @@ footer {
   margin-top: 1em;
 }
 
-/* HOME CONTENT, PARENT CONTAINER FOR H2 */
+/* Containers and Layout */
 .homeContent {
   display: flex;
   flex-flow: row;
@@ -103,29 +129,6 @@ footer {
   margin: auto;
 }
 
-/* HEADER AND BLOG NAV */
-.blogNav {
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    /* display: inline; */
-  }
-
-  li {
-    display: inline;
-    float: left;
-  }
-
-  li a {
-    display: block;
-    font-size: 1vw;
-    text-align: center;
-    padding: 2em 2em;
-  }
-}
-
-/*parent for header and nav from new */
 .blogHeader {
   background-color: #169e59;
   width: 100%;
@@ -144,20 +147,8 @@ footer {
   font-size: 5em;
 }
 
-.blogNav {
-  display: flex;
-  flex-flow: row wrap;
-  align-self: center;
-  justify-content: space-between;
-  /* font-size: 0.5em; */
-  font-family: monospace;
-}
-/* REPLACED (AS IN NEW FROM FRESH.CSS) NAV ABOVE*/
-
-/* below: from fresh CSS intro parent and 2 children, one fot text one for image */
-
 .introContainer {
-  /* display: inline-flex; */
+  display: inline-flex;
   background-color: black;
   padding: 1em;
   width: 100%;
@@ -177,10 +168,6 @@ footer {
   height: auto;
 }
 
-/* above is FRESH.CSS Intro */
-
-/*below is unsure if keeping */
-
 .def {
   display: flex;
   flex-flow: row wrap;
@@ -192,21 +179,22 @@ footer {
   margin-bottom: 2em;
 }
 
-/* widescreen displays */
+/* Responsive Design */
+/* Widescreen displays */
 @media only screen and (min-width: 920px) {
   .container {
     /* some layout rules */
   }
 }
 
-/* tablets */
+/* Tablets */
 @media only screen and (max-width: 919px) {
   .container {
     /* some layout rules */
   }
 }
 
-/* phones */
+/* Phones */
 @media only screen and (max-width: 400px) {
   .container {
     display: flex;
@@ -223,11 +211,11 @@ footer {
   }
 }
 
+/* Utility Classes */
 #highlight {
   color: aqua;
 }
 
-/* I'm using this often as parent for the intro, and when and how*/
 .whyWhenHow {
   display: flex;
   flex-flow: row wrap;
@@ -250,7 +238,6 @@ footer {
   margin: 1em;
 }
 
-/* example parent container for example code*/
 .example {
   display: flex;
   flex-flow: row flex;
@@ -262,7 +249,6 @@ footer {
   margin-bottom: 2em;
 }
 
-/*used in example and whenwhathow parents*/
 .how {
   color: #a6fefe;
   background-color: black;
@@ -271,7 +257,6 @@ footer {
   border: 1px solid aqua;
 }
 
-/*child container of example*/
 .exampleCode {
   border: #a6fefe;
   flex: relative;
@@ -282,13 +267,9 @@ footer {
   margin-bottom: 2em;
 }
 
-/* JS BLOG POST */
-/* intro content as parent container for .intro and .side to intro */
-
 .introContent {
   display: flex;
   flex-flow: row column;
-
   max-width: 100%;
   height: 100%;
 }
@@ -302,4 +283,30 @@ footer {
   padding: 1em;
   justify-content: space-between;
   align-items: center;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.block1bebes {
+  background-color: #003c3a;
+  padding: 3em;
+  margin: 1em;
+  border: #a6fefe solid;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #38a66e;
+}
+
+.block2bebes {
+  background-color: #198d7d;
+  padding: 3em;
+  margin: 1em;
+  border: #a6fefe solid;
 }
