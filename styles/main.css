@@ -17,19 +17,10 @@ h1 {
   color: #a6fefe;
 }
 
-/* old h2: heading for bloglinks, 
-h2 {
-  font-family: monospace;
-  font-size: 4vw;
-  color: #a6fefe;
-  padding: 1em;
-  letter-spacing: 0.1em; 
-} */
-
 /* from freshCSS */
 h2 {
   font-family: monospace;
-  /* font-size: 20px; */
+  font-size: 20px;
   color: #a6fefe;
   letter-spacing: 0.2em;
   padding: 1em;
@@ -47,19 +38,12 @@ h3 {
 
 p {
   font-family: monospace;
-  font-size: 3rem;
+  font-size: 18px;
   color: #e4f9fa;
   padding: 0.3em;
-}
-
-/*from freshCSS 
-p {
-  font-size: 18px;
-  font-family: monospace;
-  color: #1bcb73;
   letter-spacing: 0.1em;
   line-height: 1.8;
-}*/
+}
 
 /* Below: UNTETHERED OL, UL AND LI only*/
 
@@ -107,31 +91,6 @@ footer {
   margin-top: 1em;
 }
 
-/*old header 
-.header {
-  display: flex;
-  flex-flow: row wrap;
-  background-color: #169e59;
-  justify-content: left;
-  font-size: 2vw;
-  padding: 3.13em;
-  margin-bottom: 1em;
-}
-
-.intro {
-  display: flex;
-  font-size: 12rem;
-  align-items: baseline;
-  flex-flow: row wrap;
-  background-color: #38a66e;
-  padding: 1rem;
-  max-width: 70%;
-  height: 100%;
-  align-self: flex-start;
-  position: relative;
-}
-
-
 /* HOME CONTENT, PARENT CONTAINER FOR H2 */
 .homeContent {
   display: flex;
@@ -143,26 +102,6 @@ footer {
   width: 100%;
   margin: auto;
 }
-
-/* home page bloglinks container 23/06 
-
-.blogLinksContainer {
-  display: flex;
-  flex-direction: row;
-  background-color: #198d7d;
-}
-.blogLinks {
-  font-family: monospace;
-  font-size: 1.5vw;
-
-  flex-basis: auto;
-  max-width: 50%;
-  padding: 1em;
-  position: relative;
-}
-
-
- */
 
 /* HEADER AND BLOG NAV */
 .blogNav {
@@ -241,18 +180,6 @@ footer {
 /* above is FRESH.CSS Intro */
 
 /*below is unsure if keeping */
-.imageContainer {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-  max-width: 50%;
-  margin: 1em;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-}
 
 .def {
   display: flex;
