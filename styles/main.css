@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1em;
   padding: 1em;
   text-align: center;
 }
@@ -54,7 +54,7 @@ h3 {
 
 /* Text */
 p {
-  font-size: 18px;
+  font-size: 3em;
   color: #e4f9fa;
   padding: 0.3em;
   letter-spacing: 0.1em;
@@ -127,6 +127,7 @@ footer {
   height: 100%;
   width: 100%;
   margin: auto;
+  font-size: 3em;
 }
 
 .blogHeader {
