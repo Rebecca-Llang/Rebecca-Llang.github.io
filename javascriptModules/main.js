@@ -1,4 +1,4 @@
-import { encode } from './encode.js'
+import { encode } from './encode.js' // <- this isn't a filepath //
 
 const input = document.getElementById('PlainTextArea')
 const output = document.getElementById('CodedText')
