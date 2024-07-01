@@ -216,8 +216,8 @@ footer {
 }
 
 .whyWhenHow {
-  display: flex;
-  flex-flow: row wrap;
+  /* display: flex; */
+  /* flex-flow: row wrap; */
   align-items: center;
   background-color: #169e59;
   justify-content: space-around;
