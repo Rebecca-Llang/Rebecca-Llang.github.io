@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-size: 6em;
+  font-size: 3em;
   padding: 1em;
   text-align: center;
 }
@@ -54,7 +54,6 @@ h3 {
 
 /* Text */
 p {
-  font-size: 3em;
   color: #e4f9fa;
   padding: 0.3em;
   letter-spacing: 0.1em;
