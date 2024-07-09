@@ -3,11 +3,8 @@ body {
   background-color: #003c3a;
   width: 100%;
   height: 100%;
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: monospace;
-  box-sizing: border-box; /* Includes padding and border in the element’s total width and height, Simplifies layout calculations */
+  /* margin: 0 auto; */
+  box-sizing: border-box; /* from AI assistance pre finishing foundations: Includes padding and border in the element’s total width and height, Simplifies layout calculations */
 }
 
 a {
@@ -39,14 +36,15 @@ h3 {
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 10rem;
 }
 
 h2 {
   background-color: #169e59;
-  font-size: 3em;
+  font-size: 6rem;
   padding: 1em;
   text-align: center;
+  margin-top: 2em;
 }
 
 h3 {
@@ -55,6 +53,7 @@ h3 {
 
 /* Text : post foundations css: inline style="color: #003c3a" from b2bebes EQ */
 p {
+  font-size: 2.5rem;
   color: #e4f9fa;
   padding: 0.3em;
   letter-spacing: 0.1em;
@@ -75,6 +74,7 @@ li {
   color: #a6fefe;
   padding: 1em;
   margin: 1em;
+  font-size: 3em;
 }
 
 .toDoList {
@@ -117,7 +117,7 @@ footer {
   justify-content: center;
   background-color: #002621;
   font-family: monospace;
-  font-size: 1.88em;
+  font-size: 2.5em;
   padding: 1em;
   margin-top: 1em;
 }
@@ -152,12 +152,12 @@ footer {
   font-size: 5em;
 }
 
+/* used in EQ w/ good margin*/
 .introContainer {
   background-color: black;
   padding: 1em;
   width: 100%;
-  justify-content: space-between;
-  display: block;
+  margin: 2em;
 }
 
 .intro {
@@ -166,6 +166,7 @@ footer {
   padding: 3em;
 }
 
+/* PF: refactored for EQ, potential to be renamed*/
 .introImg {
   background-color: #073b34;
   width: 600px;
@@ -199,7 +200,7 @@ footer {
 }
 
 /* Phones */
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   .container {
     display: flex;
     flex-flow: column wrap;
@@ -213,7 +214,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-}
+} */
 
 /* Utility Classes */
 #highlight {
@@ -295,14 +296,19 @@ footer {
   background-color: black;
 }
 
+/* full horizontal text */
 .block1bebes {
   background-color: #003c3a;
   padding: 3em;
   margin: 1em;
+  margin-bottom: 3em;
   border: #a6fefe solid;
 }
 
 .block2 {
+  margin: 2em;
+  padding: 1em;
+  margin-top: 6em;
   display: flex;
   flex-direction: row;
   background-color: #38a66e;
