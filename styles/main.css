@@ -43,6 +43,7 @@ h1 {
 }
 
 h2 {
+  background-color: #169e59;
   font-size: 3em;
   padding: 1em;
   text-align: center;
@@ -52,7 +53,7 @@ h3 {
   font-size: 2em;
 }
 
-/* Text */
+/* Text : post foundations css: inline style="color: #003c3a" from b2bebes EQ */
 p {
   color: #e4f9fa;
   padding: 0.3em;
@@ -167,7 +168,7 @@ footer {
 
 .introImg {
   background-color: #073b34;
-  width: 50%;
+  width: 600px;
   height: auto;
 }
 
@@ -307,6 +308,7 @@ footer {
   background-color: #38a66e;
 }
 
+/* PostFoundations CSS: style="color: #003c3a" taken from EQ */
 .block2bebes {
   background-color: #198d7d;
   padding: 3em;
