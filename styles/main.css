@@ -76,6 +76,11 @@ li {
   margin: 1em;
 }
 
+.toDoList {
+  /* added for post foundations refactor*/
+  color: #a6fefe;
+}
+
 /* Navigation */
 .blogNav {
   display: flex;
